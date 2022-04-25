@@ -34,7 +34,7 @@ for n in range(max):
 
 if rank == 0:
     avg_res = t_sum / max
-    megabits_per_sec = num_of_bytes * 8 / avg_res / 1_000_000
+    megabits_per_sec = (num_of_bytes * 8) / avg_res / 1000000
 
     output = "{bytes},{speed}".format(bytes=num_of_bytes, speed=megabits_per_sec)
 
