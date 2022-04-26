@@ -6,7 +6,7 @@
 #SBATCH --partition=plgrid
 #SBATCH --account=plgmpr22
 
-size=10000,5000000,150000000
+size=10000,1224745,150000000
 
 module add plgrid/tools/openmpi
 module add plgrid/libs/python-mpi4py/3.0.0-python-2.7
