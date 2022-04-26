@@ -2,11 +2,11 @@
 #SBATCH --nodes 1
 #SBATCH --ntasks 12
 #SBATCH --sockets-per-node=2
-#SBATCH --time=01:00:00
+#SBATCH --time=02:00:00
 #SBATCH --partition=plgrid
 #SBATCH --account=plgmpr22
 
-size=100,1000,10000
+size=10000,10000000,100000000
 
 module add plgrid/tools/openmpi
 
