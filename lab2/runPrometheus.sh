@@ -2,7 +2,7 @@
 #SBATCH --nodes 1
 #SBATCH --ntasks 12
 #SBATCH --sockets-per-node=2
-#SBATCH --time=04:00:00
+#SBATCH --time=03:00:00
 #SBATCH --partition=plgrid
 #SBATCH --account=plgmpr22
 
