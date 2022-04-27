@@ -15,6 +15,6 @@ for s in ${size//,/ }
 do
   for th in {1..12}
   do
-    mpiexec -np $th ./approx_pi.py $s >> res_all.csv
+    mpiexec -np $th ./approx_pi.py $s >> res_all_one_iter.csv
   done
 done
