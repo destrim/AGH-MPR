@@ -14,7 +14,7 @@ p_per_node = int(p_max / size)
 comm.Barrier()
 time_start = MPI.Wtime()
 
-for i in range(p_max):
+for i in range(p_per_node):
     x = random()
     y = random()
     if (x * x + y * y) <= 1:
